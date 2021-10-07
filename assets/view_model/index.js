@@ -28,5 +28,5 @@ todayID.classList.add("active");
 
 currentMonthShow.innerHTML = model.currentMonth;
 currentDayShow.innerHTML = `${model.currentDate} число`;
-currentWeekShow.innerHTML = `${model.weekDay}`
+currentWeekShow.innerHTML = model.weekDay;
 
