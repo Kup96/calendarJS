@@ -1,0 +1,34 @@
+:root{
+    --main-size: 70px;
+    --weekday-size: 40px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(132, 132, 223);
+}
+.calendar{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+td{
+    background-color: aliceblue;
+    color: green;
+    text-align: center;
+    font-size: var(--main-size);
+}
+td.active{
+    color: red;
+}
+th{
+    font-size: var(--weekday-size);
+}
+.currentShow{
+    margin-right: 50px;
+    font-size: var(--main-size);
+}
+.currentMonth{
+    color: rgb(255, 238, 0);
+}

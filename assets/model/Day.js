@@ -1,3 +1,3 @@
 'use strict';
-let currentDate = new Date().getDate();
-export default currentDate
+export let date = new Date()
+export let currentDate = date.getDate()

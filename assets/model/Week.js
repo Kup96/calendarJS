@@ -1,12 +1,14 @@
 'use strict';
+import {date} from "./Day.js"
+
+
 function weekDayFunction(){
-        let days = ["Вc", "Пн", "Вт", "Ср", "Чт", "Пт", "Сб"];
-        let weekDay = days[new Date().getDay()];
-        return weekDay;
+        let days = ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"];
+        return days[date.getDay()];
 }
+let weekDay = weekDayFunction();
+let weekDayNumber = date.getDay();
 
-let weekDayNumber = new Date().getDay();
-
-export default {weekDayNumber, weekDayFunction}
+export {weekDayNumber, weekDay}
 
 
